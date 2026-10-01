@@ -6,8 +6,7 @@ OIDC/OAuth 2.0 y un frontend React para registrar eventos.
 
 | Documento | Contenido |
 | --- | --- |
-| [docs/architecture.md](docs/architecture.md) | Arquitectura objetivo de la plataforma completa (microservicios, bases de datos, comunicación síncrona/asíncrona, sobreventa, AWS) y detalle del MVP |
-| [docs/backlog-roadmap.md](docs/backlog-roadmap.md) · [.xlsx](docs/backlog-roadmap.xlsx) | Backlog por épicas y roadmap de 6 meses (Scrum, sprints de 2 semanas) |
+| [docs/backlog-roadmap.xlsx](docs/backlog-roadmap.xlsx) | Backlog por épicas y roadmap de 6 meses (Scrum, sprints de 2 semanas) |
 | [db/README.md](db/README.md) | Modelo de datos, migraciones, scripts SQL y datos iniciales |
 
 ## Stack
@@ -85,7 +84,7 @@ frontend/event-registration/         React + Vite + TypeScript + Tailwind
 db/                                  Scripts SQL de esquema y datos iniciales
 infra/                               Realm de Keycloak e inicialización de PostgreSQL
 tests/load/                          Prueba de carga y concurrencia (k6)
-docs/                                Arquitectura, backlog y roadmap
+docs/                                Backlog y roadmap
 docker-compose.yml                   Entorno local completo
 Directory.Build.props / Directory.Packages.props   Target framework y versiones NuGet centralizadas
 ```
