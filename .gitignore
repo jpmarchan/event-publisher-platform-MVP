@@ -1,0 +1,23 @@
+# .NET
+bin/
+obj/
+
+# Node / frontend
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Env
+.env
+
+# IDE
+.vs/
+.vscode/
+*.user
+.idea/
+
+# Varios
+*.log
+.DS_Store
+Thumbs.db
+TestResults/
